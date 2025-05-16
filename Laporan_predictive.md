@@ -1,23 +1,36 @@
 # Laporan Proyek Machine Learning - Debi Welani Christin Saragih
 
-## Domain Proyek
-Malnutrisi anak merupakan salah satu tantangan kesehatan global yang serius dan berdampak jangka panjang terhadap perkembangan manusia. Berdasarkan laporan Joint Child Malnutrition Estimates 2021, pada tahun 2020 diperkirakan:
+## 🌍 Domain Proyek
+Malnutrisi anak merupakan salah satu permasalahan kesehatan global yang berdampak langsung pada kelangsungan hidup dan perkembangan anak. Laporan Joint Child Malnutrition Estimates 2021 menunjukkan bahwa pada tahun 2020:
 
-- 149,2 juta anak di bawah usia 5 tahun mengalami stunting (kerdil),
+- 149,2 juta anak di bawah usia 5 tahun mengalami stunting (tinggi badan rendah untuk usia),
 
-- 45,4 juta anak mengalami wasting (kurus akut),
+- 45,4 juta anak mengalami wasting (berat badan rendah untuk tinggi badan),
 
 - 38,9 juta anak mengalami overweight (kelebihan berat badan).
 
-Stunting dan wasting bukan hanya menandakan kekurangan gizi, tetapi juga memiliki dampak jangka panjang terhadap kualitas hidup anak seperti penurunan kemampuan belajar, potensi penghasilan yang lebih rendah saat dewasa, dan meningkatnya risiko penyakit kronis. Overweight juga menjadi perhatian karena dapat menyebabkan obesitas dini dan penyakit tidak menular seperti diabetes atau penyakit jantung sejak usia muda.
+Stunting secara khusus menjadi perhatian karena merupakan bentuk malnutrisi kronis yang dapat menurunkan kemampuan belajar, produktivitas ekonomi, hingga meningkatkan risiko penyakit tidak menular di masa depan. Masalah ini juga berkontribusi pada terjadinya siklus kemiskinan antargenerasi, karena anak yang mengalami malnutrisi cenderung memiliki kualitas hidup yang lebih rendah saat dewasa.
 
-Masalah malnutrisi anak harus segera ditangani karena:
+Namun, meskipun telah dilakukan berbagai intervensi, data global menunjukkan bahwa hanya 25% negara yang saat ini berada di jalur yang benar (on track) untuk mencapai target pengurangan stunting pada tahun 2030. Sementara itu, tantangan yang lebih kompleks juga muncul karena tren overweight pada anak juga meningkat, terutama di negara berkembang.
 
-- Dampak jangka panjang terhadap perkembangan otak dan fisik anak, terutama pada periode emas 1000 hari pertama kehidupan.
+Dataset yang digunakan dalam proyek ini, yaitu malnutrition-estimates.csv dari Kaggle, menyajikan data prevalensi malnutrisi berdasarkan negara, tahun, dan klasifikasi ekonomi, yang dikompilasi dari sumber kredibel seperti UNICEF, WHO, dan World Bank. Data ini memberikan gambaran penting untuk:
 
-- Kontribusi terhadap siklus kemiskinan antar generasi – anak yang mengalami stunting cenderung memiliki performa pendidikan yang buruk dan produktivitas ekonomi yang rendah.
+- Mengamati tren prevalensi malnutrisi antar negara dan antar waktu,
 
-- Target global belum tercapai – Hanya sekitar 25% negara yang saat ini "on track" untuk mencapai target pengurangan stunting pada tahun 2030. Bahkan lebih sedikit negara yang diperkirakan akan mencapai target pengurangan overweight.
+- Menganalisis hubungan antara status ekonomi suatu negara dan prevalensi stunting,
+
+- Membangun model prediktif (regresi) untuk memperkirakan nilai prevalensi stunting di tahun-tahun mendatang.
+
+Mengapa masalah ini perlu diselesaikan:
+- Dampak jangka panjang terhadap perkembangan otak dan fisik anak, khususnya di masa awal kehidupan (periode 1000 hari pertama).
+
+- Kontribusi terhadap siklus kemiskinan antar generasi yang dapat memperparah ketimpangan sosial.
+
+- Ketidaktercapaian target global dalam pengurangan stunting dan overweight anak di bawah usia 5 tahun.
+
+- Kebutuhan model prediktif untuk membantu pemangku kebijakan dalam mengarahkan intervensi lebih dini dan tepat sasaran.
+
+Proyek ini bertujuan untuk membangun sistem prediksi berbasis data guna membantu para pengambil keputusan dalam mengalokasikan sumber daya, menetapkan prioritas, dan merancang kebijakan gizi anak yang lebih efektif.
 
 **Referensi :** 
 UNICEF, WHO, & World Bank Group. (2021). Levels and trends in child malnutrition: Key findings of the 2021 edition of the Joint Child Malnutrition Estimates. https://data.unicef.org/topic/nutrition/malnutrition/
